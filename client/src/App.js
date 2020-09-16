@@ -35,8 +35,8 @@ const App = () => {
             key={entry._id}
             latitude={entry.latitude} 
             longitude={entry.longitude} 
-            // offsetLeft={-12} 
-            // offsetTop={-24}>
+            offsetLeft={-12} 
+            offsetTop={-24}>
           <div>  
             <img classsName="marker" src="https://i.imgur.com/y0G5YTX.png" />
           </div>
