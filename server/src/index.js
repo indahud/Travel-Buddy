@@ -25,19 +25,13 @@ app.use(cors({
 
 app.use(express.json());
 
-app.get('/', (req, res) => {
-  res.json({
-    message: 'Hello World',
-  });
-});
-
 app.use('/api/logs', logs);
 
 // Error Handling
 app.use(middlewares.notFound);
 app.use(middlewares.errorHandler);
 
-const port = process.env.PORT || 1337;
+const port = process.env.PORT;
 
 app.listen(port, () => {
   // eslint-disable-next-line no-console
