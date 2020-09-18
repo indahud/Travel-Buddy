@@ -14,3 +14,32 @@ body {
   transform: translate(-50%, -100%);
 }
 
+.popup{
+  width: 40vw;
+  padding: 1rem;
+}
+
+.marker.yellow path{
+  fill: #F3B73E;
+}
+
+.marker.red path{
+  fill: #f05305;
+}
+
+.entry-form label, 
+.entry-form input, 
+.entry-form textarea, 
+.entry-form button {
+  margin: 0.5rem 0;
+  display: block;
+  width: 100%;
+}
+
+.error{ 
+  color: #f05305;
+}
+
+.popup img {
+  width: 100%;
+}
